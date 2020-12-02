@@ -17,6 +17,7 @@
 		2DCD954D1E0B4F2C00145EB5 /* CICDExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* CICDExampleTests.m */; };
 		4D0496F5BA3D0B28B3832805 /* libPods-CICDExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CF5D48901E7F0AE7F1CBE91 /* libPods-CICDExample.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		AA3E2EED2577E616008B5DD0 /* AppCenter-Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA3E2EEC2577E616008B5DD0 /* AppCenter-Config.plist */; };
 		B71488DB48C5ECD7CE0629A3 /* libPods-CICDExample-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72D242310886F63CB21EC19A /* libPods-CICDExample-tvOSTests.a */; };
 		F2D1BD66433287AFCC2114A2 /* libPods-CICDExample-CICDExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72A03546F2B7865A73CA3B79 /* libPods-CICDExample-CICDExampleTests.a */; };
 		F313EBFDDE38B63F93E58691 /* libPods-CICDExample-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FCE8E6A67697FA05DD00FDD /* libPods-CICDExample-tvOS.a */; };
@@ -62,6 +63,7 @@
 		80D7E71D564B886E88D5C94D /* Pods-CICDExample-CICDExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CICDExample-CICDExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-CICDExample-CICDExampleTests/Pods-CICDExample-CICDExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = CICDExample/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97A8CEFABA5F425A386CE820 /* Pods-CICDExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CICDExample.debug.xcconfig"; path = "Target Support Files/Pods-CICDExample/Pods-CICDExample.debug.xcconfig"; sourceTree = "<group>"; };
+		AA3E2EEC2577E616008B5DD0 /* AppCenter-Config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AppCenter-Config.plist"; sourceTree = "<group>"; };
 		DE269F1856B9C805B9AA83BE /* Pods-CICDExample-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CICDExample-tvOS.release.xcconfig"; path = "Target Support Files/Pods-CICDExample-tvOS/Pods-CICDExample-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
@@ -159,6 +161,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				AA3E2EEC2577E616008B5DD0 /* AppCenter-Config.plist */,
 				13B07FAE1A68108700A75B9A /* CICDExample */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* CICDExampleTests */,
@@ -194,7 +197,6 @@
 				F884A341D934F7B868EE11B7 /* Pods-CICDExample-tvOSTests.debug.xcconfig */,
 				656DC90DF591768CF5074A53 /* Pods-CICDExample-tvOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -342,6 +344,7 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				AA3E2EED2577E616008B5DD0 /* AppCenter-Config.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
